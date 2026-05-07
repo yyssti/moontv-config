@@ -1,10 +1,19 @@
 DOMAIN-SUFFIX,talkatone.com
 DOMAIN-SUFFIX,vm.talkatone.com
+DOMAIN-SUFFIX,cfg.talkatone.com
+DOMAIN-SUFFIX,api.talkatone.com
 DOMAIN-SUFFIX,talkatone.zendesk.com
 DOMAIN-KEYWORD,talkatone
+DOMAIN-KEYWORD,tktn
 
 DOMAIN-SUFFIX,tktn.at
 DOMAIN-SUFFIX,tktn.be
+DOMAIN-SUFFIX,d.tktn.be
+DOMAIN-SUFFIX,cnt.tktn.be
+
+DOMAIN-SUFFIX,mobilefuse.com
+DOMAIN-SUFFIX,cdn.mobilefuse.com
+DOMAIN-SUFFIX,mfx.mobilefuse.com
 
 DOMAIN-SUFFIX,tenor.com
 
@@ -13,19 +22,13 @@ DOMAIN-SUFFIX,ep7.facebook.com
 
 DOMAIN-SUFFIX,checkip.amazonaws.com
 
-# 证书检查（建议保留）
+# 证书
 DOMAIN,ocsp.rootcal.amazontrust.com
 DOMAIN,ocsp.godaddy.com
 DOMAIN,ocsp.r2m04.amazontrust.com
 
-# IP 段
+# IP
 IP-CIDR,216.172.154.0/24,no-resolve
-IP-CIDR,216.172.154.101/32,no-resolve
-IP-CIDR,216.172.154.102/32,no-resolve
-IP-CIDR,216.172.154.141/32,no-resolve
-IP-CIDR,219.144.91.206/32,no-resolve
-
-# 原文件已有的 IP 段（保留）
 IP-CIDR,205.164.56.0/24,no-resolve
 IP-CIDR,50.117.27.0/24,no-resolve
 IP-CIDR,63.251.124.0/24,no-resolve
