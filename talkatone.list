@@ -1,3 +1,4 @@
+# Talkatone 完整规则集
 DOMAIN-SUFFIX,talkatone.com
 DOMAIN-SUFFIX,vm.talkatone.com
 DOMAIN-SUFFIX,cfg.talkatone.com
@@ -19,15 +20,16 @@ DOMAIN-SUFFIX,tenor.com
 
 DOMAIN,ep7.facebook.com
 DOMAIN-SUFFIX,ep7.facebook.com
+DOMAIN-SUFFIX,facebook.com
 
 DOMAIN-SUFFIX,checkip.amazonaws.com
 
-# 证书
+# 证书验证
 DOMAIN,ocsp.rootcal.amazontrust.com
 DOMAIN,ocsp.godaddy.com
 DOMAIN,ocsp.r2m04.amazontrust.com
 
-# IP
+# IP 段
 IP-CIDR,216.172.154.0/24,no-resolve
 IP-CIDR,205.164.56.0/24,no-resolve
 IP-CIDR,50.117.27.0/24,no-resolve
