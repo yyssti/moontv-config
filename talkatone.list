@@ -1,37 +1,41 @@
-# Talkatone 完整规则集
+# ==================== Talkatone 核心规则 ====================
+
+# 主域名
 DOMAIN-SUFFIX,talkatone.com
 DOMAIN-SUFFIX,vm.talkatone.com
 DOMAIN-SUFFIX,cfg.talkatone.com
 DOMAIN-SUFFIX,api.talkatone.com
 DOMAIN-SUFFIX,talkatone.zendesk.com
-DOMAIN-KEYWORD,talkatone
-DOMAIN-KEYWORD,tktn
 
+# tktn 短域名（非常重要）
 DOMAIN-SUFFIX,tktn.at
 DOMAIN-SUFFIX,tktn.be
 DOMAIN-SUFFIX,d.tktn.be
 DOMAIN-SUFFIX,cnt.tktn.be
+DOMAIN-SUFFIX,api.tktn.be
 
+# MobileFuse 广告SDK（Talkatone主要广告来源）
 DOMAIN-SUFFIX,mobilefuse.com
 DOMAIN-SUFFIX,cdn.mobilefuse.com
 DOMAIN-SUFFIX,mfx.mobilefuse.com
 
+# 其他必要域名
 DOMAIN-SUFFIX,tenor.com
-
-DOMAIN,ep7.facebook.com
-DOMAIN-SUFFIX,ep7.facebook.com
 DOMAIN-SUFFIX,facebook.com
-
+DOMAIN-SUFFIX,ep7.facebook.com
 DOMAIN-SUFFIX,checkip.amazonaws.com
 
-# 证书验证
+# 证书验证（建议保留）
 DOMAIN,ocsp.rootcal.amazontrust.com
 DOMAIN,ocsp.godaddy.com
 DOMAIN,ocsp.r2m04.amazontrust.com
 
-# IP 段
+# 关键词匹配
+DOMAIN-KEYWORD,talkatone
+DOMAIN-KEYWORD,tktn
+
+# IP 段（VoIP 中继服务器）
 IP-CIDR,216.172.154.0/24,no-resolve
 IP-CIDR,205.164.56.0/24,no-resolve
 IP-CIDR,50.117.27.0/24,no-resolve
 IP-CIDR,63.251.124.0/24,no-resolve
-IP-CIDR,69.46.75.0/24,no-resolve
